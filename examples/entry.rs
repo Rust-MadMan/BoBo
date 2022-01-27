@@ -1,0 +1,3 @@
+fn api() {
+    println!("examples");
+}
