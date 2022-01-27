@@ -30,3 +30,5 @@ scripts/redirect.html
 # Uploads in pastebin example.
 examples/pastebin/upload/*
 
+# other
+.DS_Store
