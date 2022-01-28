@@ -1,3 +1,0 @@
-fn api() {
-    println!("examples");
-}
