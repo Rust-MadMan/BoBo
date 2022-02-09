@@ -44,6 +44,7 @@ async fn echo(req: Request<Body>) -> Result<Response<Body>, hyper::Error> {
     match (req.method(), req.uri().path()) {
         (&Method::GET, "/") => {
             *response.body_mut() = Body::from("Try POSTing data to /echo");
+            *response.headers_mut() = HeaderMap::
         },
         (&Method::GET, "/get") => {
             *response.body_mut() = Body::from("welcome index ");
